@@ -1,0 +1,50 @@
+{
+  "stringTable": {
+    "0": "E:/Projects/RK3399Pro/Rknn_Demo/rk_ssd_demo_1.3.0/app/.externalNativeBuild/cmake/release/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android --gcc-toolchain=E:/SDK-Android/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=E:/SDK-Android/ndk-bundle/sysroot -Drkssd4j_EXPORTS -isystem E:/SDK-Android/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem E:/SDK-Android/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem E:/SDK-Android/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem E:/SDK-Android/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -fexceptions -O2 -DNDEBUG -fPIC",
+    "2": "-isystem E:/SDK-Android/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -fexceptions -O2 -DNDEBUG  -fPIC  "
+  },
+  "buildFiles": [
+    "E:\\SDK-Android\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "E:\\Projects\\RK3399Pro\\Rknn_Demo\\rk_ssd_demo_1.3.0\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "E:\\SDK-Android\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build E:\\Projects\\RK3399Pro\\Rknn_Demo\\rk_ssd_demo_1.3.0\\app\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "rkssd4j-Release-arm64-v8a": {
+      "buildCommand": "E:\\SDK-Android\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build E:\\Projects\\RK3399Pro\\Rknn_Demo\\rk_ssd_demo_1.3.0\\app\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target rkssd4j",
+      "buildType": "release",
+      "toolchain": "3290285016",
+      "abi": "arm64-v8a",
+      "artifactName": "rkssd4j",
+      "files": [
+        {
+          "src": "E:\\Projects\\RK3399Pro\\Rknn_Demo\\rk_ssd_demo_1.3.0\\app\\src\\main\\jni\\ssd_native_c_api.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "E:\\Projects\\RK3399Pro\\Rknn_Demo\\rk_ssd_demo_1.3.0\\app\\src\\main\\jni\\ssd_image.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "E:\\Projects\\RK3399Pro\\Rknn_Demo\\rk_ssd_demo_1.3.0\\app\\src\\main\\jni\\direct_texture.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "E:\\Projects\\RK3399Pro\\Rknn_Demo\\rk_ssd_demo_1.3.0\\app\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a\\librkssd4j.so"
+    }
+  },
+  "toolchains": {
+    "3290285016": {
+      "cppCompilerExecutable": "E:\\SDK-Android\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cc"
+  ]
+}

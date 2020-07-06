@@ -1,0 +1,17 @@
+{
+  "buildFiles": [
+    "E:\\SDK-Android\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "E:\\Projects\\RK3399Pro\\Rknn_Demo\\rk_ssd_demo_1.3.0\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "E:\\SDK-Android\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build E:\\Projects\\RK3399Pro\\Rknn_Demo\\rk_ssd_demo_1.3.0\\app\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "rkssd4j-Release-arm64-v8a": {
+      "artifactName": "rkssd4j",
+      "buildCommand": "E:\\SDK-Android\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build E:\\Projects\\RK3399Pro\\Rknn_Demo\\rk_ssd_demo_1.3.0\\app\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target rkssd4j",
+      "abi": "arm64-v8a",
+      "output": "E:\\Projects\\RK3399Pro\\Rknn_Demo\\rk_ssd_demo_1.3.0\\app\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a\\librkssd4j.so"
+    }
+  }
+}

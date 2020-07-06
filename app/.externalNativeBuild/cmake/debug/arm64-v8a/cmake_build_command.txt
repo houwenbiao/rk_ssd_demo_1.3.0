@@ -1,0 +1,21 @@
+Executable : E:\SDK-Android\cmake\3.10.2.4988404\bin\cmake.exe
+arguments : 
+-HE:\Projects\RK3399Pro\Rknn_Demo\rk_ssd_demo_1.3.0\app
+-BE:\Projects\RK3399Pro\Rknn_Demo\rk_ssd_demo_1.3.0\app\.externalNativeBuild\cmake\debug\arm64-v8a
+-DANDROID_ABI=arm64-v8a
+-DANDROID_PLATFORM=android-27
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\Projects\RK3399Pro\Rknn_Demo\rk_ssd_demo_1.3.0\app\build\intermediates\cmake\debug\obj\arm64-v8a
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=E:\SDK-Android\ndk-bundle
+-DCMAKE_CXX_FLAGS=-std=c++11 -fexceptions
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a
+-DCMAKE_SYSTEM_VERSION=27
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_ANDROID_NDK=E:\SDK-Android\ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=E:\SDK-Android\ndk-bundle\build\cmake\android.toolchain.cmake
+-G Ninja
+-DCMAKE_MAKE_PROGRAM=E:\SDK-Android\cmake\3.10.2.4988404\bin\ninja.exe
+-DANDROID_ARM_NEON=TRUE
+jvmArgs : 
+
